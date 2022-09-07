@@ -116,7 +116,7 @@ function valueText(value: number) {
             Selecione a imagem
             <div className={styles.inputBox}>
               <input type="file" onChange={handleOnChangeFile} />
-              <button>Carregar</button>
+              
             </div>
           <div className={styles.buttonBox}>
             <button onClick={unlockEdit} disabled={!preview}>Editar</button>
